@@ -1,0 +1,33 @@
+# Mac system files
+.DS_Store
+
+# R history and session data
+.Rhistory
+.Rapp.history
+.RData
+.RDataTmp
+.Ruserdata
+
+# RStudio project files
+.Rproj.user/
+
+# R CMD build and check artefacts
+*.tar.gz
+*.Rcheck/
+*-Ex.R
+
+# Compiled files
+*.o
+*.so
+*.dll
+
+# Vignette cache
+vignettes/*.html
+vignettes/*.pdf
+*_cache/
+
+# pkgdown site
+docs/
+
+# Environment variables
+.Renviron
