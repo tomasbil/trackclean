@@ -7,11 +7,12 @@ Tools for cleaning high-frequency real-time location tracking data.
 ## Installation
 
 ```r
-# Install from local source
-devtools::install()
+# Install from CRAN
+install.packages("trackclean")
 
-# Or if the package is in another location
-devtools::install("path/to/trackclean")
+# Or install the development version from GitHub
+# install.packages("devtools")
+devtools::install_github("tomasbil/trackclean")
 ```
 
 ## Example Data
